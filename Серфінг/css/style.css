@@ -86,16 +86,23 @@ img{
 	z-index: 3;
 } 
 
-.header__top{
-	display: flex;
-	align-items: center;
-	padding: 57px 0;
-	gap: 100px;
-	justify-content: flex-end;
-	font-weight: 700;
-	font-family: 'Comfortaa', cursive;
-	font-size: 20px;
-	line-height: 20px;
+.header__top {
+  display: flex;
+  align-items: center;
+  padding: 30px 0; /* Зменшв висоту панелі */
+  gap: 50px; /* Зменшив проміжок між елементами */
+  justify-content: flex-end;
+  font-weight: 500; /* Зменшив жирність тексту */
+  font-family: 'Comfortaa', cursive;
+  font-size: 16px; /* Зменшив розмір шрифта */
+  line-height: 16px; /* Зменшив висоту рядка */
+  margin-right: 70px; /* Добавив відступ з права */
+}
+
+/* ↑ Всі ці зміни для .header__top були внесині щоб відповідаи візуальному дизайну не зважаючи на розміри які були прописані в дизайні тому що вони не відповідають дійсності і занадто великі */
+
+.header__phone {
+	font-weight: 700; /* Щоб шрифт був жирнішим і відповідав макету */
 }
 
 .logo path{
